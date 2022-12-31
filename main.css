@@ -1,0 +1,72 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+footer{
+    /* background-color: teal; */
+    font-size:1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bilgi{
+    border: 1px solid gray;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+.bilgi-success{
+    border-color: green;
+    color: green;
+}
+.bilgi-error{
+    border-color: red;
+    color: red;
+}
+.form{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.form-text{
+    padding: .5rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.form-btn{
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: aqua;
+    color: white;
+    border: 1px solid gray;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.table{
+    border: 1px solid gray;
+    width: 100%;
+}
+tr,th,td{
+    text-align: center;
+    padding: 1rem;
+}
+
+.far{
+    pointer-events: none;
+}
